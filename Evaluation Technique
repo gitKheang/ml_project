@@ -1,0 +1,8 @@
+ Evaluation Technique for Car Price Prediction Project:
+We used regression evaluation metrics to measure the performance of our model:
+
+MAE (Mean Absolute Error): Measures the average absolute difference between predicted and actual prices.
+
+RMSE (Root Mean Squared Error): Penalizes larger errors more than MAE, useful for detecting big mistakes.
+
+R² Score (Coefficient of Determination): Indicates how well the model explains the variability of car prices (closer to 1 is better).
