@@ -1,0 +1,30 @@
+Methodology
+
+Loading Libraries
+Used pandas for data handling, numpy for numerical operations, seaborn and matplotlib for visualizations. 
+Scikit-learn was used for model training, evaluation metrics, and splitting the dataset.
+
+Building and Loading Dataset
+The dataset was loaded from a CSV file. Basic inspection was done to display a few rows and understand the structure.
+
+Data Summary
+Generated summary statistics, including data types, number of samples, and basic descriptive stats like mean and standard deviation.
+
+Data Visualization
+Plotted distribution of selling prices using histograms. Created boxplots for features like kilometers driven and a scatter plot to show relationships between variables. A heatmap of feature correlations was also used.
+
+Data Preprocessing
+Removed duplicate rows and handled missing values. Outliers in selling price and kilometers driven were removed. Created new features like car age and brand. Applied one-hot encoding to categorical columns and standardized numerical columns using z-score.
+
+Split the Dataset
+Split the dataset into training and testing sets in an 80:20 ratio.
+
+Choosing ML Algorithms
+Selected multiple regression algorithms suitable for the prediction task including Linear Regression, Decision Tree Regressor, Random Forest Regressor, and Support Vector Regressor.
+
+Training the Model
+Trained each model using the training data. Evaluated performance using R squared, MAE, and RMSE. Saved the best performing model.
+
+Inferencing
+Used the trained model to predict selling prices for new car data based on user input features such as brand, fuel type, car age, and kilometers driven.
+
